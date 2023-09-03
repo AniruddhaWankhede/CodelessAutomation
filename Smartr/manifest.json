@@ -1,0 +1,13 @@
+{
+    "name": "Smartr",
+    "version": "1.0.0",
+    "description": "Codeless Automation",
+    "manifest_version": 3,
+    "author": "Aniruddha Wankhede",
+    "content_scripts": [
+   {
+     "matches": ["https://*/*"],
+     "js": ["jquery.min.js", "script.js"]
+   }
+ ]
+}
